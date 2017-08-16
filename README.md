@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/suganya92/suganya92.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/suganya92/suganya92.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div id="header">
+			<p id="name">Your Name Here</p>
+			<a href="mailto:sraghuraman@hawk.iit.edu"><p id="email">sraghuraman@hawk.iit.edu</p></a>
+		</div>
+		<div class="left"></div>
+		<div class="right">
+			<h4>Objective</h4>
+			<p>To take a position as a software engineer.</p>
+			<h4>Experience</h4>
+			<p>Junior Developer, Software Company (2010 - Present)</p>
+			<ul>
+				<li>Designed and implemented end-user features for Flagship Product</li>
+				<li>Wrote third-party JavaScript and Ruby libraries</li>
+			</ul>
+			<h4>Skills</h4>
+			<p>Languages: C#, JavaScript, Python, Ruby</p>
+			<p>Frameworks: .NET, Node.js, Django, Ruby on Rails</p>
+			<h4>Education</h4>
+			<p>BS, Economics, My University</p>
+			<ul>
+				<li>Award for best senior thesis</li>
+				<li>GPA: 3.8</li>
+			</ul>
+		</div>
+		<div id="footer">
+			<p>123 Your Street, Anytown, State 12345-6789 | Tel: (555) 555-5555</p>
+		</div>
+	</body>
+</html>
